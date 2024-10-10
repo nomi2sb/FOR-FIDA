@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Change this to 'row' if you want the image on the side */
+    justify-content: center;
+    align-items: center;
+}
+
+#fidaImg {
+    width: 220px; /* Resize the image */
+    height: auto;
+    margin-bottom: 40px; /* Space between the image and the text */
+    border-radius: 10px; /* Add some rounding to the image if needed */
+}
+
+/* Text Styles */
+h1 {
+    margin-bottom: 20px;
+    font-size: 40px; /* Increased font size */
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add text shadow */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Button Styles */
+button {
+    font-size: 24px; /* Bigger font size */
+    padding: 15px 30px; /* Bigger buttons */
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; /* More rounded buttons */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#yesBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.1); /* Slightly grow on hover */
+}
